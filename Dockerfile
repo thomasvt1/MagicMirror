@@ -6,7 +6,7 @@ ENV MM_PORT 8080
 WORKDIR /opt/magic_mirror
 
 RUN apk update \
-    && apk add dos2unix --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted \
+    && apk add dos2unix --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/community/ --allow-untrusted \
     && apk add git
 
 RUN git clone --depth 1 -b master https://github.com/MichMich/MagicMirror.git .
