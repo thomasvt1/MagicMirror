@@ -11,10 +11,9 @@ In some cases, you want to start the application without an actual app window. I
 
 # Supported tags and respective `Dockerfile` links
 
-- `latest` - Latest MagicMirror² server ([Dockerfile](https://github.com/bastilimbach/docker-MagicMirror/blob/master/Dockerfile))
-- `alpine` - Alpine version of the MagicMirror² server ([Dockerfile](https://github.com/bastilimbach/docker-MagicMirror/blob/master/alpine/Dockerfile))
+-- `latest` - Latest MagicMirror² Alpine version of the MagicMirror² server
 
-> Disclaimer: The Alpine version is overriding the `/modules` and `/config` folders on every container restart.
+> Disclaimer: This version is overriding the `/modules` and `/config` folders on every container restart.
 
 # Run MagicMirror² in server only mode
 After a successful [Docker installation](https://docs.docker.com/engine/installation/) you just need to execute the following command in the shell:
