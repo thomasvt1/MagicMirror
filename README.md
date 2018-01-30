@@ -9,10 +9,6 @@ MagicMirror² focuses on a modular plugin system and uses [Electron](http://elec
 # Why Docker?
 In some cases, you want to start the application without an actual app window. In this case, you can start MagicMirror² in server only mode by manually running `node serveronly` or using Docker. This will start the server, after which you can open the application in your browser of choice.
 
-# Supported tags and respective `Dockerfile` links
-
--- `latest` - Latest MagicMirror² Alpine version of the MagicMirror² server
-
 > Disclaimer: This version is overriding the `/modules` and `/config` folders on every container restart.
 
 # Run MagicMirror² in server only mode
